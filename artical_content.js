@@ -20,7 +20,7 @@ if (system.args.length === 1) {
             });
             console.log(content_t);
             phantom.exit();
-        },2000);
+        },4000);
     };
     page.open(page.address, function (status) {
         if (status !== 'success') {
